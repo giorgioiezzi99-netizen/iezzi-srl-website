@@ -31,10 +31,10 @@
             background-position: center;
         }
 
-        /* Animazione scorrimento loghi Partner (5 elementi) */
+        /* Animazione scorrimento loghi Partner (6 elementi) */
         @keyframes scrollPartner {
             0% { transform: translateX(0); }
-            100% { transform: translateX(calc(-250px * 5)); }
+            100% { transform: translateX(calc(-250px * 6)); }
         }
 
         .slider-container {
@@ -91,6 +91,15 @@
 
         .partner-img:hover {
             transform: scale(1.08);
+        }
+
+        .partner-logo-dark {
+            background: var(--brand-dark);
+            border-radius: 6px;
+            padding: 12px 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     </style>
 </head>
@@ -212,8 +221,13 @@
                     </a>
                 </div>
                 <div class="slide">
-                    <a href="https://confremar.com/it/" target="_blank">
-                        <img src="images-2.png" alt="Confremar" class="partner-img" onerror="this.src='https://via.placeholder.com/200x80?text=CONFREMAR'">
+                    <a href="https://www.ditria.eu/en/" target="_blank" rel="noopener" class="partner-logo-dark">
+                        <img src="ditria-bianco-no-retina.png" alt="Di Tria" class="partner-img" onerror="this.src='https://via.placeholder.com/200x80?text=DI+TRIA'">
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://bachettifood.it" target="_blank" rel="noopener">
+                        <img src="bachetti_logo.png" alt="Bachetti Food" class="partner-img" onerror="this.src='https://via.placeholder.com/200x80?text=BACHETTI'">
                     </a>
                 </div>
                 <div class="slide">
@@ -225,7 +239,8 @@
                 <div class="slide"><a href="https://www.geldi.it/" target="_blank"><img src="logo-sito-geldi.png" class="partner-img" alt="Geldi"></a></div>
                 <div class="slide"><a href="https://vandemoortele.com/en" target="_blank"><img src="images-3.png" class="partner-img" alt="Vandemoortele"></a></div>
                 <div class="slide"><a href="https://www.luxurytapas.com/" target="_blank"><img src="3934060.jpg" class="partner-img" alt="Luxury Tapas"></a></div>
-                <div class="slide"><a href="https://confremar.com/it/" target="_blank"><img src="images-2.png" class="partner-img" alt="Confremar"></a></div>
+                <div class="slide"><a href="https://www.ditria.eu/en/" target="_blank" rel="noopener" class="partner-logo-dark"><img src="ditria-bianco-no-retina.png" class="partner-img" alt="Di Tria"></a></div>
+                <div class="slide"><a href="https://bachettifood.it" target="_blank" rel="noopener"><img src="bachetti_logo.png" class="partner-img" alt="Bachetti Food"></a></div>
                 <div class="slide"><a href="https://borges1896.com/" target="_blank"><img src="borges.jpg" class="partner-img" alt="Borges"></a></div>
             </div>
         </div>
